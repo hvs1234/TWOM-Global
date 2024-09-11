@@ -8,7 +8,7 @@ const ServiceCard = ({ homeservicedata }) => {
         {homeservicedata.map((e) => {
           return (
             <div
-              className="flex flex-col justify-start gap-[2rem] border-[1px] border-[#212121] rounded-2xl items-start px-[4rem] py-[4rem] cursor-pointer transition-all duration-[0.3s] ease-linear hover:scale-[1.02] shadow-md mb-auto mt-auto h-[100%] w-[100%]"
+              className={`flex flex-col justify-start gap-[2rem] border-[1px] border-[#212121] rounded-2xl items-start px-[4rem] py-[4rem] cursor-pointer transition-all duration-[0.3s] ease-linear hover:scale-[1.02] shadow-md mb-auto mt-auto h-[100%] w-[100%] ${e.boxclass}`}
               key={e.id}
             >
               {e.icon}

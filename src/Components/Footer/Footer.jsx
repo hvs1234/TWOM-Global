@@ -11,9 +11,9 @@ const Footer = () => {
   return (
     <>
       <div className="pt-[9rem] pb-[2rem] bg-[black] w-[100%] px-[40rem] ml-auto mr-auto max-xl:px-[5rem]">
-        <div className="flex items-start justify-center gap-[10rem] max-xl:flex-wrap max-sm:flex-col max-xl:justify-start ml-auto mr-auto">
-          <div className="flex flex-col gap-[0rem]">
-            <div className="flex items-start justify-start">
+        <div className="flex items-start justify-center gap-[10rem] max-xl:flex-wrap max-sm:flex-col max-xl:justify-start ml-auto mr-auto max-sm:justify-center max-sm:items-center max-sm:text-center">
+          <div className="flex flex-col gap-[0rem] max-sm:justify-center max-sm:items-center">
+            <div className="flex items-start justify-start max-sm:justify-center max-sm:items-center">
               <img src={logo} alt="logo" className="w-[60%]" />
             </div>
             <div className="flex flex-col gap-[3rem]">
@@ -142,11 +142,11 @@ const Footer = () => {
                 <i className="fa-solid fa-phone"></i>&nbsp; 097603 73493
               </a>
               <a
-                href="mailto:globaltwom@gmail.com"
+                href="mailto:info@twomglobal.com "
                 className="text-[white] transition-all duration-[0.3s] ease-linear hover:text-[goldenrod] text-[1.6rem]"
               >
                 <i className="fa-solid fa-envelope"></i>&nbsp;
-                globaltwom@gmail.com
+                info@twomglobal.com
               </a>
             </ul>
           </div>

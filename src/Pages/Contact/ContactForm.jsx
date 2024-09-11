@@ -91,7 +91,7 @@ const ContactForm = () => {
           <div className="flex flex-col gap-[1rem]">
             <p className="text-[2rem] font-semibold">Opening Hours</p>
             <p className="text-[2rem] font-normal">
-              Monday - Friday : 9am - 6pm <br /> Saturday : 10am - 4pm
+              Monday to Friday : 9am - 6pm <br /> Saturday : 10am - 4pm
             </p>
           </div>
         </div>
@@ -107,10 +107,10 @@ const ContactForm = () => {
                 +91 976 03 73493
               </a>
               <a
-                href="mailto:globaltwom@gmail.com"
+                href="mailto:info@twomglobal.com"
                 className="text-[2rem] font-normal hover:text-[darkblue]"
               >
-                globaltwom@gmail.com
+                info@twomglobal.com
               </a>
             </div>
           </div>
