@@ -53,9 +53,9 @@ const Hero = () => {
         <div className="relative w-[100%] h-[100%] flex flex-col justify-center items-center text-center gap-[2rem] pt-[30rem] pb-[10rem] max-md:pt-[20rem]">
           <h1 className="text-[6rem] text-[white] font-light max-xl:text-[5rem] max-lg:text-[4rem] max-md:text-[3.5rem] max-md:max-w-[50%] max-sm:max-w-[60%] max-[500px]:max-w-[80%] max-[400px]:max-w-[90%]">
             Storytelling, Branding and{" "}
-            <span className="font-normal">
-              <span className="text-[goldenrod]">D</span>igital{" "}
-              <span className="text-[goldenrod]">E</span>xperiences
+            <span className="font-semibold uppercase">
+              <span className="text-[goldenrod] font-semibold">D</span>igital{" "}
+              <span className="text-[goldenrod] font-semibold">E</span>xperiences
             </span>
           </h1>
           <p className="text-[2.2rem] font-normal text-[#ededed] max-xl:text-[2rem] max-lg:max-w-[60%] max-md:max-w-[80%]">

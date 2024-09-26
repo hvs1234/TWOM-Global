@@ -39,7 +39,11 @@ const ServiceSwiper = () => {
                 key={e.id}
               >
                 <div className="flex justify-center items-center w-[auto]">
-                  <img src={e.img} alt="img" className="w-[100%] max-md:w-[80%] rounded-full" />
+                  <img
+                    src={e.img}
+                    alt="img"
+                    className="w-[100%] max-md:w-[80%] rounded-full"
+                  />
                 </div>
                 <div className="flex flex-col gap-[2rem] justify-center w-[50%] max-md:w-[100%] max-md:px-[3rem]">
                   <p className="text-[2rem] text-[#212121]">{e.desc}</p>

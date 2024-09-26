@@ -14,11 +14,11 @@ const HomeChoose = () => {
             into impactful realities. Here`s why choosing TWOM Global is your
             gateway to unparalleled creativity and excellence.
           </p>
-          <div className="grid grid-cols-3 gap-[12rem] justify-center items-center mt-[8rem] max-lg:grid-cols-1 max-lg:gap-[8rem]">
+          <div className="grid grid-cols-3 gap-[8rem] justify-center items-center mt-[8rem] max-lg:grid-cols-1 max-lg:gap-[8rem]">
             {homechoosedata.map((e) => {
               return (
                 <div
-                  className="flex flex-col gap-[1rem] items-center justify-center text-center"
+                  className="flex flex-col gap-[1rem] items-center justify-center text-center px-[2rem] py-[2rem] rounded-xl hover:bg-[#fecb6b] transition-all duration-[0.3s] ease-linear"
                   key={e.id}
                 >
                   {e.icon}

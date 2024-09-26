@@ -25,7 +25,7 @@ const HomeService = () => {
             onClick={handleOnClick("/service")}
             className="text-[2.5rem] text-[#212121] hover:scale-[1.02] transition-all duration-[0.2s] ease-in-out hover:text-[#2c2c46]"
           >
-            See More &nbsp;<i className="fa-solid fa-arrow-right-long"></i>
+          <i className="fa-solid fa-chevron-right text-[2rem]"></i>&nbsp; See More
           </Link>
         </div>
       </div>

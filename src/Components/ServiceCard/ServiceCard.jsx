@@ -8,12 +8,12 @@ const ServiceCard = ({ homeservicedata }) => {
         {homeservicedata.map((e) => {
           return (
             <div
-              className={`flex flex-col justify-start gap-[2rem] border-[1px] border-[#212121] rounded-2xl items-start px-[4rem] py-[4rem] cursor-pointer transition-all duration-[0.3s] ease-linear hover:scale-[1.02] shadow-md mb-auto mt-auto h-[100%] w-[100%] ${e.boxclass}`}
+              className={`flex flex-col justify-start gap-[2rem] border-[1px] border-[grey] rounded-2xl items-start px-[4rem] py-[4rem] cursor-pointer transition-all duration-[0.3s] ease-linear hover:scale-[1.02] hover:bg-[#ffe7e9] mb-auto mt-auto h-[100%] w-[100%] ${e.boxclass}`}
               key={e.id}
             >
               {e.icon}
-              <h2 className="text-[3rem] text-[#3a0f25]">{e.title}</h2>
-              <p className="text-[2rem]">{e.desc}</p>
+              <h2 className="text-[3rem] text-[#804d67] capitalize font-semibold">{e.title}</h2>
+              <p className="text-[2rem] text-[#212121]">{e.desc}</p>
             </div>
           );
         })}

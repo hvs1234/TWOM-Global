@@ -10,7 +10,11 @@ const HomeClient = () => {
             Our Reach & Clients
           </p>
           <h2 className="text-[4rem] text-[#212121] max-xl:text-[3rem]">
-            Elevating Brands, Everywhere
+            Elevating{" "}
+            <span className="font-semibold">
+              <span className="text-[black] font-semibold">B</span>rands,{" "}
+              <span className="text-[black] font-semibold">E</span>verywhere
+            </span>
           </h2>
           <div className="flex items-center justify-center w-[100%] mt-[4rem]">
             <img src={img} alt="img" className="w-[100%]" />

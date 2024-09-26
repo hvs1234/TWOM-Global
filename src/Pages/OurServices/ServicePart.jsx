@@ -11,7 +11,7 @@ const ServicePart = () => {
     <>
       <div className="py-[9rem] px-[20rem] w-full h-[100%] max-xl:px-[5rem] max-md:px-[3rem]">
         <div className="flex flex-col text-center justify-center items-center gap-[2rem] w-[100%]">
-          <h2 className="text-[4rem] max-xl:text-[3rem] text-[#212121] capitalize font-normal">
+          <h2 className="text-[4rem] max-xl:text-[3rem] text-[#212121] font-normal">
             What`s Services We Are Offering to Our Customers
           </h2>
           <p className="text-[2rem] text-[#212121]">
